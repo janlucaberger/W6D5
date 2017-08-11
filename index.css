@@ -1,0 +1,70 @@
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- */
+
+
+body {
+  font-family: 'Anton';
+}
+
+.clock-container{
+  /*height: 140px;*/
+  width: 600px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+.clockElement{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.weather-container{
+  width: 600px;
+  height: 60px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.tabs-container{
+  width: 300px;
+  background-color: yellow;
+}
+
+.tab-titles{
+  display: flex;
+}
+
+.tab-title{
+background-color: blue;
+padding: 10px;
+width: 80px;
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.selected-tab{
+  background-color: lightblue;
+}
+article{
+  background: lightblue;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
